@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csproj", "{FB900017-DECD-4B7F-BF31-417B447B50E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Tests", "WebApp.Tests\WebApp.Tests.csproj", "{42788FFC-F018-4975-A1F7-B422735D686F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DC74E5A-9C6B-4295-84F7-518E463085D8}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB900017-DECD-4B7F-BF31-417B447B50E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB900017-DECD-4B7F-BF31-417B447B50E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB900017-DECD-4B7F-BF31-417B447B50E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB900017-DECD-4B7F-BF31-417B447B50E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42788FFC-F018-4975-A1F7-B422735D686F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42788FFC-F018-4975-A1F7-B422735D686F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42788FFC-F018-4975-A1F7-B422735D686F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42788FFC-F018-4975-A1F7-B422735D686F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {937B87F4-2A46-4398-B79C-0AA6264DE41B}
+	EndGlobalSection
+EndGlobal
