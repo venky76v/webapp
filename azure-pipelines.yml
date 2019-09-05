@@ -10,7 +10,7 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 variables:
-  imageName: 'quickdevnotes/webapp:$(build.buildNumber)'
+  imageName: 'venky76v/webapp:$(build.buildNumber)'
 
 steps:
 - script: dotnet test WebApp.Tests/WebApp.Tests.csproj --logger trx
