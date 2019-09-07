@@ -36,7 +36,7 @@ namespace Tests
             var repository = new ArticleRepository();
 
             // act
-            var article = repository.GetArticle(5);
+            var article = repository.GetArticle(6);
 
             // assert
             Assert.IsTrue(article.Id == 0);
