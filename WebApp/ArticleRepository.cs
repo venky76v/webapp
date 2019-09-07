@@ -13,7 +13,7 @@ namespace WebApp
             {
                 Id = 1,
                 Title = "What is Lorem Ipsum?",
-                Author= "Gaurav Gahlot",
+                Author= "Venky Venkataraman",
                 PublishedOn = new DateTime(2019, 01, 20),
                 Content = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             },
@@ -21,7 +21,7 @@ namespace WebApp
             {
                 Id =  2,
                 Title = "Why do we use it?",
-                Author= "Gaurav Gahlot",
+                Author= "Venky Venkataraman",
                 PublishedOn = new DateTime(2019, 01, 21),
                 Content = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
             },
@@ -29,7 +29,7 @@ namespace WebApp
             {
                 Id = 3,
                 Title = "Where does it come from?",
-                Author= "Gaurav Gahlot",
+                Author= "Venky Venkataraman",
                 PublishedOn = new DateTime(2019, 01, 22),
                 Content = "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
             },
@@ -37,9 +37,17 @@ namespace WebApp
             {
                 Id = 4,
                 Title = "Yet another article",
-                Author= "Gaurav Gahlot",
+                Author= "Venky Venkataraman",
                 PublishedOn = new DateTime(2019, 03, 27),
                 Content = "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+            },
+            new Article
+            {
+                Id = 5,
+                Title = "What is Docker",
+                Author= "Venky Venkataraman",
+                PublishedOn = DateTime.Now,
+                Content = "It works on my machine but it doesn't work on the production server"
             },
         };
 
